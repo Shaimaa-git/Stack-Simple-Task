@@ -10,8 +10,8 @@ public class SimpleStackExample {
         stack.push(20);
         stack.push(10);
         //use for loop to set the size of stack up to 10
-        for(int i=0;i>10;i++) {
-            stack.push(i);
+        for(int i = stack.size(); i < 10; i++) {
+        stack.push(i);
         }
         //print the stack element
         System.out.println(stack);
